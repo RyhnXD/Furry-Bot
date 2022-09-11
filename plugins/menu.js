@@ -410,7 +410,7 @@ await conn.send2ButtonLoc(m.chat, await conn.resize(await (await fetch(flu + te
       } 
      })*/
      //conn.sendFile(m.chat, pp, 'menu.jpg', text.trim(), m).catch(_ => conn.reply(m.chat, text.trim(), m))
-  conn.sendFile(m.chat, 'haori.mp3', 'haori.mp3', null, m, true, {
+  conn.sendFile(m.chat, 'https://a.uguu.se/jvdOuNWe.mp3', 'haori.mp3', null, m, true, {
 type: 'audioMessage', 
 ptt: true, contextInfo:{ externalAdReply: { title: `💌 Luminous`, body: `${pickRandom(['Bot Wangsaff'])}`, sourceUrl: 'https://wa.me/62895627514070', thumbnail: await (await fetch('https://telegra.ph/file/8d216a35e2ac344d128f8.jpg')).buffer(),}} 
      })
