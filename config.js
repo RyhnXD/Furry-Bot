@@ -58,7 +58,7 @@ global.APIKeys = {
 
 global.linkyt = 'https://youtu.be/60yZO4UQKdI'
 global.WM = '𝑴𝒚𝑩𝒐𝒕-𝑴𝒖𝒍𝒕𝒊 𝑫𝒆𝒗𝒊𝒄𝒆 𝑩𝒚 𝚃𝚑𝚎.𝚂𝚊𝚍.𝙱𝚘𝚢𝟶𝟷'
-global.linkgc = 'https://chat.whatsapp.com/GOVmktar4DfEMkT5ftRJiy'
+global.linkgc = 'https://chat.whatsapp.com/HqEu42TkWnrCEdDf7gj4b7'
 global.linkig = 'https://www.instagram.com/the.sad.boy01'
 global.deslink = ''
 global.logo = 'https://telegra.ph/file/1665521d176fbf172d735.jpg'
