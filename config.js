@@ -11,6 +11,7 @@ global.kontak = [
 global.lolkey = 'sonelganz'
 //xteamkey
 global.xkey = 'NezukoTachibana281207'
+global.zenzkey = 'f9fccfcff1'
 
 //apikey
 global.APIs = {
