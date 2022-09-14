@@ -7,14 +7,9 @@ let levelling = require('../lib/levelling')
  let PhoneNumber = require('awesome-phonenumber') 
  const defaultMenu = { 
    before: `%readmore`.trim(),
-  header: `
-⁙╭⃝━━•›ꪶ ཻུ۪۪ꦽꦼ̷⸙ ━ ━ ▣ ━ ━ ꪶ ཻུ۪۪ꦽꦼ̷⸙‹•━━─▣
-⁙┃╭┈─────────────⩵꙰ཱི࿐
-⁙┃╰───━⃝┅❲ *%category* ❳┅⃝━───ꕥ ↶↷
-⁙├☆─〔Luminous〕──┈➤`,
-  body: `⁙├〲 %cmd %islimit %isPremium`,
-  footer: `⁙╰•──────━⃝┅⃝━─═┅═━–┈ 
-⳹`,
+  header: '╭─㉿ 〔 %category 〕 ㉿─\n┃',
+  body: '┃ク %cmd %islimit %isPremium',
+  footer: '┃\n╰────────㉿\n', 
   after: `
 ⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❙❘❙❙❘❙❘❙❚❙❘❙❙❙❘❙❘❙❚❙❘❙❚❙❘❙❙❘❙❚❙❘ ⌕.
  
