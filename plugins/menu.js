@@ -5,10 +5,13 @@ let levelling = require('../lib/levelling')
  let moment = require('moment-timezone') 
  let jimp = require('jimp') 
  let PhoneNumber = require('awesome-phonenumber') 
+
+ let emot = `${pickRandom(['⎔', '✦', '⭑', 'ᯬ', '⭔', '◉', '⬟', '▢', '᭻', '»', '〆', '々', '⛥', '✗', '⛊', '⚜', '⚝', '⚚', '♪'])}`
+
  const defaultMenu = { 
    before: `%readmore`.trim(),
   header: '╭─㉿ 〔 %category 〕 ㉿─\n┃',
-  body: '┃ク %cmd %islimit %isPremium',
+  body: '┃${emot} %cmd %islimit %isPremium',
   footer: '┃\n╰────────㉿\n', 
   after: `
 ⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❙❘❙❙❘❙❘❙❚❙❘❙❙❙❘❙❘❙❚❙❘❙❚❙❘❙❙❘❙❚❙❘ ⌕.
