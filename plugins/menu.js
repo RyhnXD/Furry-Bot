@@ -308,6 +308,7 @@ ${'```%npmdesc```'}
      let muptime = clockString(_muptime) 
      let uptime = clockString(_uptime) 
      global.jam = time 
+     let vn = './tmp/haori.mp3'
      let totalreg = Object.keys(global.db.data.users).length 
      let rtotalreg = Object.values(global.db.data.users).filter(user => user.registered == true).length 
      let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(plugin => { 
